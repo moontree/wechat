@@ -13,7 +13,7 @@ module.exports = function(app) {
         yield next;
     });
     /**
-     * 访问权限检查和日志记录
+     * 璁块棶鏉冮檺妫�鏌ュ拰鏃ュ織璁板綍
      */
     router.use("/",function*(next){
         //console.log(this);
